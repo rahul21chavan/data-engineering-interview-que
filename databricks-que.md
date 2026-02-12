@@ -1,0 +1,90 @@
+
+# Databricks Interview Questions (2–3 Years Experience)
+
+## 1. Databricks Fundamentals
+
+1. What is Databricks, and how does it differ from traditional Spark environments?
+2. Explain the architecture of Databricks. What are the key components?
+3. What is a Databricks workspace?
+4. What are clusters in Databricks? Explain different cluster types.
+5. How does Databricks handle auto-scaling and auto-termination?
+
+---
+
+## 2. Apache Spark in Databricks
+
+6. What is the difference between RDD, DataFrame, and Dataset?
+7. How does lazy evaluation work in Spark?
+8. What are transformations and actions in Spark?
+9. What is partitioning in Spark, and why is it important?
+10. How do you handle skewed data in Spark?
+
+---
+
+## 3. Delta Lake
+
+11. What is Delta Lake, and why is it used in Databricks?
+12. What are the advantages of Delta tables over Parquet tables?
+13. Explain ACID transactions in Delta Lake.
+14. What is the Delta transaction log (_delta_log)?
+15. How does Delta Lake support schema evolution?
+16. What is schema enforcement in Delta?
+17. Explain Time Travel in Delta Lake.
+18. What is the purpose of the VACUUM command?
+19. What is OPTIMIZE in Delta Lake?
+20. What is Z-Ordering, and when should it be used?
+
+---
+
+## 4. Data Engineering & ETL
+
+21. How do you build an end-to-end ETL pipeline in Databricks?
+22. What is the Medallion Architecture (Bronze, Silver, Gold)?
+23. How do you ingest data from cloud storage into Databricks?
+24. How do you handle incremental data loads?
+25. What is Auto Loader in Databricks?
+26. How do you process streaming data in Databricks?
+27. What is Structured Streaming?
+28. How do you handle late-arriving data?
+29. How do you manage data quality in Databricks pipelines?
+30. How do you handle CDC (Change Data Capture) in Delta Lake?
+
+---
+
+## 5. Performance Optimization
+
+31. How do you optimize Spark jobs in Databricks?
+32. What is caching and when should it be used?
+33. What is the difference between cache() and persist()?
+34. What is data skew, and how do you fix it?
+35. What is broadcast join, and when should you use it?
+36. How do you optimize joins in Databricks?
+37. What is Adaptive Query Execution (AQE)?
+38. How do you monitor and troubleshoot slow jobs?
+
+---
+
+## 6. Databricks SQL & Warehousing
+
+39. What is Databricks SQL?
+40. What are SQL Warehouses?
+41. How do you create and manage views in Databricks?
+42. What is the difference between managed and external tables?
+
+---
+
+## 7. Workflow & Orchestration
+
+43. What are Databricks Jobs?
+44. How do you schedule and monitor workflows?
+45. How do you pass parameters between notebooks?
+46. How do you implement error handling and retries in Databricks Jobs?
+
+---
+
+## 8. Security & Governance
+
+47. What is Unity Catalog?
+48. How do you manage access control in Databricks?
+49. How do you secure sensitive data in Delta tables?
+50. What are best practices for production deployment in Databricks?
